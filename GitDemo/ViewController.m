@@ -12,10 +12,15 @@
 
 @property (nonatomic) int sum;
 @property (nonatomic, strong) TestClass *testClass;
+- (void)sayHello;
 
 @end
 
 @implementation ViewController
+
+-(void)sayHello{
+    NSLog(@"Hello");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,6 +31,7 @@
     self.sum = a + b;
     
     NSLog(@"The result is: %d", self.sum);
+    [self sayHello];
 }
 
 - (void)didReceiveMemoryWarning {
