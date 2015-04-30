@@ -12,10 +12,15 @@
 
 @property (nonatomic) int sum;
 @property (nonatomic, strong) TestClass *testClass;
+- (void)sayByeBye;
 
 @end
 
 @implementation ViewController
+
+- (void)sayByeBye{
+    NSLog(@"Bye - Bye");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
