@@ -19,6 +19,7 @@
 @implementation ViewController
 
 -(void)sayHello{
+    NSLog(@"Norbert");
     NSLog(@"Hello");
 }
 
