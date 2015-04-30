@@ -19,7 +19,6 @@
 @implementation ViewController
 
 -(void)sayHello{
-    NSLog(@"Norb");
     NSLog(@"Hello");
 }
 
